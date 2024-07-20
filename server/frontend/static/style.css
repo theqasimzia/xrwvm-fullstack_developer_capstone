@@ -124,3 +124,180 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #575757;
+}
+
+.nav-links .active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+.cars-image {
+  
+  display: flex;  
+  flex-direction: column;
+  width: 50%;
+  margin: auto; 
+
+  
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-contact{
+  border: rgb(103, 102, 105) 3px;
+  display: flex;  
+  flex-direction: column;
+  
+  margin: auto; 
+  margin-top: 0%;
+  margin-left: 0%;
+
+}
+
+.contactus-image{
+  width: 60%;
+  display: flex;  
+  flex-direction: column;
+  margin: 50%;
+  margin-top: 20;
+
+}
+
+
+
+.contact-info {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h1, .contact-info h2 {
+  color: #333;
+}
+
+.contact-info p, .contact-info a {
+  color: #555;
+  margin: 5px 0;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #04AA6D;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  color: #333;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  color: #555;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-form button:hover {
+  background-color: #039a5b;
+}
+
+.map {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.map h2 {
+  color: #333;
+}
+
+.map iframe {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
